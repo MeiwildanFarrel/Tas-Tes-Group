@@ -38,10 +38,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         break;
                     case "Yuka":
                         $popupTitle = "Dedy Tigor Manurung";
-                        $popupNim = "000000000";
+                        $popupNim = "2311103138";
                         $popupKelas = "07E";
-                        $popupEmail = " xxxx@gmail.com";
-                        $popupJob = "Database";
+                        $popupEmail = " dedymanurung0@gmail.com";
+                        $popupJob = "Testing & Database";
                         break;
                     default:
                         $popupTitle = "Informasi Anggota";

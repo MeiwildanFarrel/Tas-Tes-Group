@@ -21,7 +21,7 @@ include 'popup-handler.php';
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Pesan Tiket</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Tentang</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -101,10 +101,10 @@ include 'popup-handler.php';
                 </div>
                 <div class="column">
                     <div class="card">
-                        <img src="" alt="Yuka" style="width:100%">
+                        <img src="dedy.jpg" alt="Yuka" style="width:100%">
                         <div class="container">
                             <h3>Dedy Tigor Manurung</h3>
-                            <p class="title">Database& Server</p>
+                            <p class="title">Database & Testing</p>
                             <p>
                             <form method="post" action="">
                                 <input type="hidden" name="action" value="showPopup">
