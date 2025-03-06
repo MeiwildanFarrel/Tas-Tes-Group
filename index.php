@@ -11,6 +11,17 @@ include 'popup-handler.php';
     <title>Menara Pandang Teratai</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function popUp() {
+            Swal.fire({
+                title: 'Jaiz Cahya Prasetya',
+                html: "<p>NIM : 2311103059</p><p>Kelas : SI07-E</p><p>Email : jaizcahya@student.telkomuniversity.ac.id</p>",
+                showCancelButton: true,
+                confirmButtonText: 'OK',
+                cancelButtonText: 'Close'
+            })
+        }
+    </script>
 </head>
 
 <body>
@@ -48,73 +59,19 @@ include 'popup-handler.php';
             <p>Kelompok Tugas Besar Pemrograman Aplikasi Web</p>
             <br>
 
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <img src="ibnu.png" alt="Jane" style="width:100%; height:300px;">
-                        <div class="container">
-                            <h3>Muhammad Ibnu Sofyan</h3>
-                            <p class="title">FrontEnd Developer</p>
-                            <p>
-                            <form method="post" action="">
-                                <input type="hidden" name="action" value="showPopup">
-                                <input type="hidden" name="member" value="Jane">
-                                <button type="submit" class="show-popup-button">More Details</button>
-                            </form>
-                            </p>
-                        </div>
+            <div class="column">
+                <div class="card">
+                    <img src="jaizz.JPG" alt="Jaiz" style="width:80%">
+                    <div class="container">
+                        <h3>Jaiz Cahya Prasetya</h3>
+                        <p class="title">Backend Developer</p>
+                        <p>
+                            <button onclick="popUp()">More Details</button>
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="column">
-                    <div class="card">
-                        <img src="" alt="Mike" style="width:100%">
-                        <div class="container">
-                            <h3>Meiwildan Muhammad Farrel</h3>
-                            <p class="title">UI UX & Hosting</p>
-                            <p>
-                            <form method="post" action="">
-                                <input type="hidden" name="action" value="showPopup">
-                                <input type="hidden" name="member" value="Mike">
-                                <button type="submit" class="show-popup-button">More Details</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <div class="card">
-                        <img src="" alt="John" style="width:100%">
-                        <div class="container">
-                            <h3>Jaiz Cahya Prasetya</h3>
-                            <p class="title">Backend Developer</p>
-                            <p>
-                            <form method="post" action="">
-                                <input type="hidden" name="action" value="showPopup">
-                                <input type="hidden" name="member" value="John">
-                                <button type="submit" class="show-popup-button">More Details</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <img src="" alt="Yuka" style="width:100%">
-                        <div class="container">
-                            <h3>Dedy Tigor Manurung</h3>
-                            <p class="title">Database& Server</p>
-                            <p>
-                            <form method="post" action="">
-                                <input type="hidden" name="action" value="showPopup">
-                                <input type="hidden" name="member" value="Yuka">
-                                <button type="submit" class="show-popup-button">More Details</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
